@@ -1,136 +1,173 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=00D9FF&center=true&vCenter=true&width=940&lines=Rafael+Garay+%7C+Pentester;SIGEA+Platform+%7C+Founder;EC-Council+Certified+%7C+CTF+Player" alt="Typing SVG" />
-</h1>
+# Rafael Morinigo | Corvus DDoSKrom
+```bash
+┌──(corvus㉿ddoskrom)-[~]
+└─$ cat /etc/profile
 
-<p align="center">
-  <code>root@corvus:~# whoami</code>
-</p>
-```
-┌─[✔]─[rafael@corvus-h4ck]─[~/workspace]
-└──╼ $ cat profile.txt
-
-Penetration Tester construyendo el futuro de la ciberseguridad en LATAM.
-Fundador de SIGEA - democratizando el acceso a seguridad empresarial.
-
-[STATUS] Building, Breaking, Securing.
+[*] Initializing profile...
+[+] User: Rafael Morinigo
+[+] Alias: Corvus DDoSKrom
+[+] Role: Penetration Tester @ Corvus H4ck
+[+] Location: Paraguay
+[+] Status: Building SIGEA Platform
+[*] Profile loaded successfully.
 ```
 
 ---
 
-### 🎯 Actualmente
-```yaml
-role: Pentester @ Corvus H4ck
-project: SIGEA Platform - Cybersecurity SaaS
-focus: 
-  - Vulnerability Assessment & Pentesting
-  - Building security tools for SMEs
-  - CTF competitions & knowledge sharing
-location: Paraguay 🇵🇾
+## $ whoami
+```bash
+corvus@ddoskrom:~$ cat about.txt
+
+Pentester especializado en assessment de vulnerabilidades y desarrollo
+de herramientas de seguridad. Fundador de SIGEA - plataforma SaaS que
+democratiza la ciberseguridad para PyMES en LATAM.
+
+Certificaciones: EC-Council E|HE | N|DE
+Comunidad: Kavacon Member | CTF Player
 ```
 
 ---
 
-### ⚡ Tech Arsenal
-```javascript
-const rafael = {
-  pentesting: ["Metasploit", "Burp Suite", "Nmap", "Wireshark"],
-  code: ["Python", "PHP", "JavaScript", "Bash"],
-  frameworks: ["React", "n8n", "Supabase"],
-  currently_learning: "Rust para herramientas de red",
-  certifications: ["EC-Council E|HE", "EC-Council N|DE"],
-  fun_fact: "Competidor activo en CTFs y miembro de Kavacon"
-};
+## $ ls -la /skills
+```bash
+corvus@ddoskrom:~$ ls -la /skills/
+
+drwxr-xr-x  pentesting/
+  -rwxr-xr-x  metasploit
+  -rwxr-xr-x  burp_suite
+  -rwxr-xr-x  nmap
+  -rwxr-xr-x  wireshark
+  -rwxr-xr-x  kali_linux
+
+drwxr-xr-x  development/
+  -rwxr-xr-x  python
+  -rwxr-xr-x  php
+  -rwxr-xr-x  javascript
+  -rwxr-xr-x  react
+  -rwxr-xr-x  bash
+  -rwxr-xr-x  mysql
+
+drwxr-xr-x  automation/
+  -rwxr-xr-x  n8n
+  -rwxr-xr-x  docker
+  -rwxr-xr-x  git
 ```
 
 ---
 
-### 🚀 SIGEA Platform
+## $ ./current_projects.sh
+```bash
+corvus@ddoskrom:~$ ./current_projects.sh
 
-Plataforma SaaS de ciberseguridad diseñada para PyMES en América Latina:
+[+] Executing current projects...
 
-- **Vulnerability Scanner** - Detección automatizada de vulnerabilidades
-- **SIEM** - Monitoreo centralizado de eventos de seguridad  
-- **EDR** - Protección avanzada de endpoints
-- **Automated Pentesting** - Workflows de pentesting con n8n
+[1] SIGEA Platform
+    ├─ Vulnerability Scanner
+    ├─ SIEM Implementation
+    ├─ EDR Module
+    └─ Automated Pentesting Workflows
+    Status: [████████░░] 80% - Active Development
 
-> *"Porque la ciberseguridad no debería ser un lujo, sino un estándar."*
+[2] Pentesting Automation Framework
+    └─ n8n-based pentesting workflows
+    Status: [██████████] 100% - Production
 
----
+[3] CTF Writeups & Labs
+    └─ Knowledge sharing platform
+    Status: [██████░░░░] 60% - Ongoing
 
-### 📌 Pinned Projects
-
-<div align="center">
-
-| Project | Description | Tech |
-|---------|-------------|------|
-| 🛡️ **SIGEA Scanner** | Motor de escaneo de vulnerabilidades | Python, Nmap |
-| 🤖 **Pentest Automation** | Framework de pentesting automatizado | n8n, Python |
-| 📝 **CTF Writeups** | Documentación de challenges resueltos | Markdown |
-| 🔐 **Security Labs** | Entornos vulnerables para práctica | Docker, Linux |
-
-</div>
+[!] All projects running smoothly.
+```
 
 ---
 
-### 🏆 Achievements Unlocked
-```python
-achievements = {
-    "certifications": 2,  # E|HE, N|DE
-    "ctf_flags": "∞",     # Black Alpaca CTF & more
-    "coffee_consumed": "Too many to count ☕",
-    "bugs_found": "Growing daily 🐛",
-    "projects_shipped": "SIGEA + others"
+## $ cat /var/log/achievements.log
+```bash
+corvus@ddoskrom:~$ tail -f /var/log/achievements.log
+
+[2024-XX-XX] Obtained EC-Council E|HE certification
+[2024-XX-XX] Obtained EC-Council N|DE certification
+[2024-XX-XX] Founded SIGEA Platform
+[2024-XX-XX] Joined Corvus H4ck team
+[2024-XX-XX] Active participant in Black Alpaca CTF
+[2024-XX-XX] Kavacon community member
+[2025-XX-XX] Building cybersecurity ecosystem in Paraguay
+[2025-XX-XX] Developing automated pentesting tools
+[ONGOING] Solving CTF challenges
+[ONGOING] Creating security content
+```
+
+---
+
+## $ curl https://api.github.com/users/corvus/stats
+```bash
+corvus@ddoskrom:~$ curl https://api.github.com/users/corvus/stats
+
+{
+  "username": "TU_USERNAME",
+  "focus": [
+    "Penetration Testing",
+    "Security Tools Development",
+    "Web Application Security",
+    "Network Security",
+    "CTF Competitions"
+  ],
+  "current_learning": "Rust for network tools",
+  "certifications": 2,
+  "active_projects": 3,
+  "coffee_level": "critical ☕"
 }
 ```
 
 ---
 
-### 📊 GitHub Activity
-
-<p align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=TU_USERNAME&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=TU_USERNAME&layout=compact&langs_count=8&theme=tokyonight"/>
-</p>
-
----
-
-### 🎓 Learning Path
+## $ netcat -lvp 4444
 ```bash
-rafael@machine:~$ cat learning_roadmap.sh
+corvus@ddoskrom:~$ netcat -lvp 4444
+Listening on 0.0.0.0 4444
 
-#!/bin/bash
+[*] Waiting for connections...
+[+] Connection received from:
 
-echo "[✓] Web Application Pentesting"
-echo "[✓] Network Security Assessment" 
-echo "[✓] Reverse Engineering Basics"
-echo "[→] Advanced Malware Analysis"
-echo "[→] Cloud Security (AWS/Azure)"
-echo "[→] Red Team Operations"
+📧 Email: [email protected]
+🔗 LinkedIn: linkedin.com/in/TU_LINKEDIN
+🐙 GitHub: github.com/TU_USERNAME
+🐦 Twitter: @TU_TWITTER
+
+[*] Feel free to connect!
 ```
 
 ---
 
-### 🌐 Let's Connect
+## $ echo $MOTTO
+```bash
+corvus@ddoskrom:~$ echo $MOTTO
 
-<p align="center">
-  <a href="https://linkedin.com/in/rafael-morinigo-1637491bb/">
-    <img src="https://img.shields.io/badge/-LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
-  </a>
-  <a href="https://github.com/CorvusH4ck">
-    <img src="https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
-  </a>
-</p>
+"Breaking systems to build better security."
+```
+
+---
+
+## $ history | tail -n 3
+```bash
+corvus@ddoskrom:~$ history | tail -n 3
+
+  999  cd /workspace/sigea
+ 1000  git commit -m "Building the future of cybersecurity in LATAM"
+ 1001  ./deploy.sh --target production
+```
+
+---
+```bash
+corvus@ddoskrom:~$ uptime
+System uptime: Securing LATAM since [AÑO_QUE_EMPEZASTE]
+Load average: ██████████ (Constantly learning)
+
+corvus@ddoskrom:~$ █
+```
 
 ---
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=TU_USERNAME&color=00D9FF&style=flat-square&label=Profile+Views"/>
-</p>
-
-<p align="center">
-  <i>"Securing the future, one vulnerability at a time."</i>
-</p>
-
-<p align="center">
-  <sub>Built with 💙 in Paraguay</sub>
+  <sub>Built with ❤️ and 🐧 in Paraguay</sub>
 </p>
