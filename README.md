@@ -8,7 +8,7 @@
 [+] Alias: Corvus DDoSKrom
 [+] Role: Penetration Tester @ Corvus H4ck
 [+] Location: Paraguay
-[+] Status: Building SIGEA Platform
+[+] Status: Co-Founder @ SIGEA Platform
 [*] Profile loaded successfully.
 ```
 
@@ -19,11 +19,12 @@
 corvus@ddoskrom:~$ cat about.txt
 
 Pentester especializado en assessment de vulnerabilidades y desarrollo
-de herramientas de seguridad. Fundador de SIGEA - plataforma SaaS que
+de herramientas de seguridad. Co-fundador de SIGEA - plataforma SaaS que
 democratiza la ciberseguridad para PyMES en LATAM.
 
 Certificaciones: EC-Council E|HE | N|DE
 Comunidad: Kavacon Member | CTF Player
+Experiencia: Desde 2019 en ciberseguridad ofensiva
 ```
 
 ---
@@ -61,7 +62,7 @@ corvus@ddoskrom:~$ ./current_projects.sh
 
 [+] Executing current projects...
 
-[1] SIGEA Platform
+[1] SIGEA Platform (Co-Founder)
     ├─ Vulnerability Scanner
     ├─ SIEM Implementation
     ├─ EDR Module
@@ -85,9 +86,10 @@ corvus@ddoskrom:~$ ./current_projects.sh
 ```bash
 corvus@ddoskrom:~$ tail -f /var/log/achievements.log
 
+[2019-XX-XX] Started journey in cybersecurity
 [2024-XX-XX] Obtained EC-Council E|HE certification
 [2024-XX-XX] Obtained EC-Council N|DE certification
-[2024-XX-XX] Founded SIGEA Platform
+[2024-XX-XX] Co-founded SIGEA Platform
 [2024-XX-XX] Joined Corvus H4ck team
 [2024-XX-XX] Active participant in Black Alpaca CTF
 [2024-XX-XX] Kavacon community member
@@ -99,12 +101,12 @@ corvus@ddoskrom:~$ tail -f /var/log/achievements.log
 
 ---
 
-## $ curl https://api.github.com/users/corvus/stats
+## $ curl https://api.github.com/users/CorvusH4ck/stats
 ```bash
-corvus@ddoskrom:~$ curl https://api.github.com/users/corvus/stats
+corvus@ddoskrom:~$ curl https://api.github.com/users/CorvusH4ck/stats
 
 {
-  "username": "TU_USERNAME",
+  "username": "CorvusH4ck",
   "focus": [
     "Penetration Testing",
     "Security Tools Development",
@@ -115,6 +117,7 @@ corvus@ddoskrom:~$ curl https://api.github.com/users/corvus/stats
   "current_learning": "Rust for network tools",
   "certifications": 2,
   "active_projects": 3,
+  "years_of_experience": 6,
   "coffee_level": "critical ☕"
 }
 ```
@@ -130,9 +133,9 @@ Listening on 0.0.0.0 4444
 [+] Connection received from:
 
 📧 Email: [email protected]
-🔗 LinkedIn: linkedin.com/in/TU_LINKEDIN
-🐙 GitHub: github.com/TU_USERNAME
-🐦 Twitter: @TU_TWITTER
+🔗 LinkedIn: linkedin.com/in/rafael-morinigo-1637491bb
+🐙 GitHub: github.com/CorvusH4ck
+🐦 Twitter: @corvus_ddoskrom
 
 [*] Feel free to connect!
 ```
@@ -160,7 +163,7 @@ corvus@ddoskrom:~$ history | tail -n 3
 ---
 ```bash
 corvus@ddoskrom:~$ uptime
-System uptime: Securing LATAM since [AÑO_QUE_EMPEZASTE]
+System uptime: Securing LATAM since 2019
 Load average: ██████████ (Constantly learning)
 
 corvus@ddoskrom:~$ █
